@@ -27,7 +27,7 @@ module Urbit.Azimuth.Account (
   ) where
 
 import qualified Crypto.Ethereum as C
-import qualified Network.Haskoin.Keys as K
+import qualified Haskoin.Keys as K
 import qualified Network.Ethereum.Account as A
 import qualified Network.Ethereum.Account.Internal as AI
 import Network.JsonRpc.TinyClient (JsonRpc)
